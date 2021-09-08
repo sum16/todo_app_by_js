@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>todo</title>
+    <meta charset="UTF-8" />
+  </head>
+
+  <body>
+    <div class="input-area">
+      <input id="add-text" placeholder="todoを入力" type="text" />
+      <button id="add-button">追加</button>
+    </div>
+
+    <div class="incomplete_task-area">
+      <p class="title">未完了タスク</p>
+      <ul id="incomplete-list"></ul>
+    </div>
+
+    <div class="complete_task-area">
+      <p class="title">完了タスク</p>
+      <div class="list-rouw">
+        <ul id="complete-list">
+          <li>リスト</li>
+          <button>戻す</button>
+        </ul>
+      </div>
+      <div class="list-rouw">
+        <ul></ul>
+      </div>
+    </div>
+
+    <script src="src/index.js"></script>
+  </body>
+</html>
